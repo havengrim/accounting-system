@@ -29,7 +29,7 @@ const data = {
   user: {
     name: "shadcn",
     email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    avatar: "https://github.com/shadcn.png",
   },
   teams: [
     {
@@ -50,13 +50,13 @@ const data = {
   ],
   navMain: [
     {
-      title: "Invoice",
+      title: "Dashboard",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
     },
     {
-      title: "Models",
+      title: "Invoice",
       url: "#",
       icon: Bot,
     },
